@@ -38,7 +38,7 @@ function CheckOut() {
           <div className="max-container">
             <Link
               to={"/"}
-              className="btn bg-base-100 mt-[79px] text-[16px] mb-[38px]"
+              className="btn bg-base-100 mt-[10px] text-[16px] mb-[38px]"
             >
               Go Back
             </Link>
@@ -226,7 +226,7 @@ function CheckOut() {
                   CONTINUE & PAY
                 </button>
                 <dialog id="my_modal_4" className="modal p-2">
-                  <div className="modal-box w-full max-w-[540px] p-12 max-[530px]:p-5">
+                  <div className="modal-box w-full max-w-[530px] p-12 max-[530px]:p-5">
                     {allSelectData.length ? (
                       <div>
                         <img
@@ -283,7 +283,7 @@ function CheckOut() {
                     )}
 
                     <form method="dialog">
-                      <button className="text-[#FFFFFF] hover:bg-[#FBAF85] transition font-bold text-[13px] bg-[#D87D4A] w-full h-12 mt-[46px]">
+                      <button className="text-[#FFFFFF] hover:bg-[#FBAF85] transition font-bold text-[13px] bg-[#D87D4A] w-full h-12 mt-[26px]">
                         BACK TO HOME
                       </button>
                     </form>

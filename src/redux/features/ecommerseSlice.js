@@ -1,6 +1,5 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit"
-import {getAuth, signOut} from "firebase/auth"
-import {Navigate} from "react-router-dom"
+
 import {toast} from "react-toastify"
 export const fetchData = createAsyncThunk(
   "ecommerse/fetchData",
